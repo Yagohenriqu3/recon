@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+:root{
+    --cor-1: #1578D4;
+    --cor-2: #24C0EB;
+    --cor-3: #1951F6;
+    --cor-4: #19F6AC;
+    --cor-5: #15D4CA;
+    
+}
+
+main{
+   border: 1px solid rgb(236, 236, 236);
+   margin: 0px 20px 0px 20px;
+   background-color: rgb(236, 236, 236);
+    
+}
+
+header{
+    margin: auto;
+    padding: 10px 30px 7px 30px;
+    background-color: white;
+}
+
+header > div {
+    text-align: center;
+}
+
+a > img.logo{
+    margin-bottom: 20px;
+    max-width: 40vh;
+    
+}
+
+header > nav {
+    margin-top: 5px;
+    text-align: right;
+}
+header > nav > a{
+    padding: 5px 15px 5px 15px;
+    background-color: var(--cor-1);
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+  
+}
+
+header > nav > a:hover {
+    background-color: var(--cor-3);
+    transition: 1s;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493) ;
+}
+
+section#principal {
+    width: 100vw;
+    min-height: 700px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url("../imagens/web_designer.jpg");
+}
