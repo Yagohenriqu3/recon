@@ -124,6 +124,25 @@ section.conteudo > div#txt1 {
     color: white;
     padding: 15px;
     text-align: justify;
+    position: relative;
+    width: 45vw;
+    display: inline-block;
+    margin-left: 2vw;
+    
+}
+
+section.conteudo > div#txt2 {
+    width: 90vw;
+    margin: auto;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: justify;
+    position: relative;
+    width: 45vw;
+    display: inline-block;
+    margin: auto;
 }
 
 section.conteudo > div#txt1 > h1 {
@@ -131,5 +150,13 @@ section.conteudo > div#txt1 > h1 {
 }
 
 section.conteudo > div#txt1 > p {
+    font-size: 30px;
+}
+
+section.conteudo > div#txt2 > h1 {
+    font-size: 50px;
+}
+
+section.conteudo > div#txt2 > p {
     font-size: 30px;
 }
